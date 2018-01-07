@@ -1,0 +1,221 @@
+
+
+
+.form-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 97.1%;
+  height: 50px;
+  border: none;
+  padding: 5px 7px 5px 15px;
+  background: #fff;
+  color: #666;
+  border: 2px solid #ddd;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  font-size:20px;
+}
+.form-control1 {
+    width: 20%;
+    height: 20px;
+    border: none;
+    padding: 5px 7px 5px 15px;
+    background: #fff;
+    color: #666;
+    border: 2px solid #ddd;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.form-control2 {
+    display:block;
+    width: 100px;
+    height: 20px;
+   padding-left:30px;
+    border: none;
+    margin-right:-14px;
+    margin-top:15px;
+    padding: 5px 7px 5px 15px;
+    background: #fff;
+    color: #666;
+    border: 2px solid #ddd;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.form-control3 {
+    display:block;
+    width: 200px;
+    height: 20px;
+   padding-left:30px;
+    border: none;
+    margin-right:-10px;
+    margin-top:15px;
+    padding: 5px 7px 5px 15px;
+    background: #fff;
+    color: #666;
+    border: 2px solid #ddd;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.form-control4 {
+    display:block;
+    width: 150px;
+    height: 20px;
+   padding-left:30px;
+    border: none;
+    margin-right:-10px;
+    margin-top:15px;
+    padding: 5px 7px 5px 15px;
+    background: #fff;
+    color: #666;
+    border: 2px solid #ddd;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.form-control5 {
+    display:block;
+    width: 90px;
+    height: 20px;
+   padding-left:32px;
+    border: none;
+    margin-right:-10px;
+    margin-top:15px;
+    padding: 5px 7px 5px 15px;
+    background: #fff;
+    color: #666;
+    border: 2px solid #ddd;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.form-control:focus, .form-control:focus + .fa , .form-control4:focus, .form-control4:focus + .fa {
+  border-color:#00B4FF;
+  color:#00B4FF;
+  transition-duration:0.5s;
+}
+.form-control1:focus, .form-control1:focus + .fa , .form-control5:focus, .form-control5:focus + .fa {
+  border-color:#00B4FF;
+  color:#00B4FF;
+  transition-duration:0.5s;
+}
+.form-control2:focus, .form-control2:focus + .fa {
+  border-color:#00B4FF;
+  color:#00B4FF;
+  transition-duration:0.5s;
+}
+.form-control3:focus, .form-control3:focus + .fa {
+  border-color:#00B4FF;
+  color:#00B4FF;
+  transition-duration:0.5s;
+}
+
+.form-group .fa {
+  position: absolute;
+  right: 15px;
+  top: 17px;
+  color: #999;
+}
+
+.log-status.wrong-entry {
+  -moz-animation: wrong-log 0.3s;
+  -webkit-animation: wrong-log 0.3s;
+  animation: wrong-log 0.3s;
+}
+
+.log-status.wrong-entry .form-control, .wrong-entry .form-control + .fa {
+  border-color: #ed1c24;
+  color: #ed1c24;
+}
+
+
+.link {
+  text-decoration: none;
+  color:rgb(246, 242, 242);
+  float: right;
+  font-size: 20px;
+  margin-bottom: 25px;
+  margin-right:255px;
+  margin-left:10px;
+}
+.link:hover, .link1:hover {
+  text-decoration: underline;
+  color:  #00B4FF;
+  transition-duration:0.5s;
+}
+.link1{
+    text-decoration: none;
+    color: rgb(246, 242, 242);
+    float: right;
+    font-size: 30px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+.inf {
+    color:#00B4FF;
+    font-size:20px;
+    margin-bottom:15px;
+}
+@-moz-keyframes wrong-log {
+  0%, 100% {
+    left: 0px;
+  }
+  20% , 60% {
+    left: 15px;
+  }
+  40% , 80% {
+    left: -15px;
+  }
+}
+@-webkit-keyframes wrong-log {
+  0%, 100% {
+    left: 0px;
+  }
+  20% , 60% {
+    left: 15px;
+  }
+  40% , 80% {
+    left: -15px;
+  }
+}
+@keyframes wrong-log {
+  0%, 100% {
+    left: 0px;
+  }
+  20% , 60% {
+    left: 15px;
+  }
+  40% , 80% {
+    left: -15px;
+  }
+}
+.drop {
+    width: 100px;
+    height:30px;
+   display:block;
+   margin-right:370px;
+}
+.drop1 {
+    width: 100px;
+    height:30px;
+   display:block;
+   margin-top:-10px;
+}
+.drop2 {
+    width: 100px;
+    height:30px;
+   display:block;
+
+}

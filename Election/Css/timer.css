@@ -1,0 +1,30 @@
+﻿.timer {
+    width:936px;
+   padding:0px 20px 5px 10px;
+  background-color: rgba(248, 245, 245, 0.95);
+  border-bottom:3px solid rgba(0, 0, 0, 0.81);
+}
+.sq {
+    font-size: 25px;
+    color:rgba(0, 0, 0, 0.94);
+    text-shadow:1px 1px rgb(222, 27, 27);
+    float:right;
+}
+.td1 {
+    display: block;
+}
+.td2 {
+    display: block;
+    margin-right:250px;
+}
+.texta {
+    color:rgb(222, 27, 27);
+    font-size: 25px;
+    padding-right: 45px;
+}
+.textb {
+    color: #00B4FF;
+    font-size: 25px;
+    padding-right: 76px;
+    padding-bottom: -10px;
+}

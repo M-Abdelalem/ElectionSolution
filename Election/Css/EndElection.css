@@ -1,0 +1,21 @@
+﻿.sa{
+    color: rgb(222, 27, 27);
+    font-size: 40px;
+    display:block;
+    padding:20px 20px;
+    text-shadow: 1px 1px 1px rgb(12, 57, 232);
+    background-color: rgba(248, 245, 245, 0.95);
+}
+.bn {
+    display:block;
+    text-decoration: none;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.81);
+    margin-right:20px;
+    margin-top:50px;
+}
+    .bn:hover {
+        color: rgb(222, 27, 27);
+        text-decoration:underline;
+        transition-duration:0.5s;
+    }

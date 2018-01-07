@@ -1,0 +1,46 @@
+﻿.valstyle1 {
+    background-color:rgba(237, 28, 36, 0.59);
+    border-radius:0 0 10px 10px ;
+    display:block;
+    color:rgb(255, 255, 255);
+    font-size:15px;
+    text-align:center;
+}
+.valstyle11 {
+    background-color:rgba(237, 28, 36, 0.59);
+    color:rgb(255, 255, 255);
+    font-size:10px;
+    text-align:center;
+    display:block;
+}
+.ae {
+    display: block;
+    margin-top: -20px;
+    border-radius:0 0 10px 10px ;
+}
+.valstyle2 {
+    display:inline-block;
+    background-color:rgba(237, 28, 36, 0.59);
+    color:rgb(255, 255, 255);
+    font-size:10px;
+}
+.sd {
+    display: block;
+    margin-top: -20px;
+    margin-right: -20px;
+    margin-left:30px;
+}
+.valstyle12 {
+    background-color:rgba(237, 28, 36, 0.59);
+    color:rgb(255, 255, 255);
+    font-size:25px;
+    padding:5px;
+    border-radius:2px;
+    text-align:center;
+}
+.er {
+    width: 300px;
+    display: block;
+    margin-top: -35px;
+    margin-right:320px;
+}

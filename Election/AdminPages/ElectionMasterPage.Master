@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ElectionMasterPage.master.cs" Inherits="Election.AdminPages.ElectionMasterPage" %>
+
+<!DOCTYPE html>
+
+<html lang="ar">
+<head runat="server">
+    <title></title>
+    <meta charset="utf-8" />      
+        <link href="../css/layout.css" rel="stylesheet" type="text/css" />
+        <link href="../css/menu.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="../css/style.css">
+        <link href="../Css/reg.css" rel="stylesheet" />
+        <link href="../Css/ValidationStyle.css" rel="stylesheet" />
+        <link href="../Css/endinfostyle.css" rel="stylesheet" />
+
+        <script src="../Js/index.js"></script>  
+        <link rel="icon" type="image/png" href="../imgs/icon3.png">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+     <div class="container">
+
+            <ul id="nav">
+                <li><a class="hsubs" href="../AdminPages/ElectedShow.aspx">المنتخب</a>
+                    <ul class="subs">
+                        <li><a href="../AdminPages/ElectedShow.aspx">عرض المنتخبين</a></li>
+                        <li><a href="../AdminPages/ElectedAdd.aspx">اضافة منتخب</a></li>
+                        <li><a href="../AdminPages/ElectedDelete.aspx">حذف منتخب</a></li>
+                        <li><a href="../AdminPages/ElectedUpdate.aspx">تعديل بيانات منتخب </a></li>
+                    </ul>
+                </li>
+                <li><a class="hsubs" href="../AdminPages/CandidateShow.aspx">المرشح</a>
+                    <ul class="subs">
+                        <li><a href="../AdminPages/CandidateShow.aspx">عرض المرشحين</a></li>
+                        <li><a href="../AdminPages/CandidateAdd.aspx">اضافة مرشح</a></li>
+                        <li><a href="../AdminPages/CandidateDelete.aspx">حذف مرشح</a></li>
+                        <li><a href="../AdminPages/CandidateUpdate.aspx">تعديل بيانات مرشح </a></li>
+                    </ul>
+                </li>
+                <li><a class="hsubs" href="../AdminPages/CommissionShow.aspx">اللجنة</a>
+                    <ul class="subs">
+                        <li><a href="../AdminPages/CommissionShow.aspx">عرض اللجان</a></li>
+                        <li><a href="../AdminPages/CommissionAdd.aspx">اضافة لجنة</a></li>
+                        <li><a href="../AdminPages/CommissionDelete.aspx">حذف لجنة</a></li>
+                        <li><a href="../AdminPages/CommissionUpdate.aspx">تعديل بيانات لجنة </a></li>
+                    </ul>
+                </li>
+                <li><a class="hsubs" href="../AdminPages/ElectionPage.aspx">نتائج التصويت</a></li>
+                <li><a class="hsubs" href="../AdminPages/Sort.aspx">ترتيب المرشحين</a></li>                
+                <li><a class="hsubs" href="../AdminPages/ResultPage.aspx">نتيجة الانتخابات</a></li>
+                <li><a class="hsubs" href="../AdminPages/EndElection.aspx">تحديد زمن الانتخابات</a></li>
+                <li><asp:LinkButton class="hsubs" ID="LinkButton1" OnClick="LinkButton1_Click" runat="server">خروج</asp:LinkButton></li>
+                <div id="lavalamp"></div>
+            </ul>
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </div>
+        
+    
+    </form>
+</body>
+</html>

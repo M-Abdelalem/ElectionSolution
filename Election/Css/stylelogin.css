@@ -1,0 +1,64 @@
+body {
+    direction:rtl;
+    background-image:url(../imgs/black-wallpaper-28.jpg)
+}
+#login {
+    width: 500px;
+    height: 400px;
+    background-color:rgba(1, 1, 1, 0.66);
+    border-radius:10px;
+    margin:100px auto;
+}
+#name {
+   
+}
+#password {
+}
+.attrrib1 {
+    display: block;
+     color:rgb(30, 166, 211);
+    font-size: 25px;
+   padding-top:10px;
+   padding-right:10px;
+}
+.form1 {
+    width: 90%;
+    height: 50px;
+    border: none;
+    padding: 5px 10px 5px 5px;
+    background: #fff;
+    color: #666;
+    margin-right:10px;
+    border: 2px solid #ddd;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.form1:focus, .form1:focus + .fa {
+  border-color:#00B4FF;
+  color:#00B4FF;
+  transition-duration:0.5s;
+}
+#but {
+    display:block;
+    text-align:center;
+     margin-top:50px;
+}
+.button1 {
+   
+    text-align:center;
+    color:#00B4FF;
+    font-size:40px;
+    font-weight:400;
+    text-decoration:none;
+
+}
+ .button1:hover {
+     color:rgba(1, 1, 1, 0.66);
+     border:solid #00B4FF 1px;
+     border-radius:5px;
+     padding:3px 50px;
+     background-color:#fefffb;
+     transition-duration:0.4s;
+}

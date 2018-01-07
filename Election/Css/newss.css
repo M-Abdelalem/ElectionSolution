@@ -1,0 +1,13 @@
+﻿.valstyle13 {
+    background-color:rgba(237, 28, 36, 0.59);
+    color:rgb(255, 255, 255);
+    font-size:15px;
+    padding:5px;
+    border-radius:2px;
+    text-align:center;
+}
+.timein {
+    display: inline-block;
+    margin-top:-20px;
+    margin-right:-30px;
+}

@@ -1,0 +1,114 @@
+﻿/*.div21 {
+   width:300px;
+    height:200px; 
+    display:inline-block;
+    padding-bottom:30px;
+    padding-left:10px;
+    margin-top:-20px;
+    padding-top:0px;
+}*/
+.s11 {
+    width:290px;
+    height:200px;
+    display:inline-block;
+    border:solid 2px rgba(0, 0, 0, 0.3);
+    border-radius:10px;
+    margin-right:20px
+
+}
+    .s11:hover {
+border-color:rgba(0, 0, 0, 0.8);
+         box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+         transition-duration:0.5s;
+    }
+        .s11:hover .votebutton  {
+            background-color: #e31c3d;
+            transition-duration:0.9s;
+            
+        }
+        .s11:hover .image12 {
+            opacity: 1;
+transition-duration:0.9s;
+        }
+        .s11:hover .vote {
+            color: #fafafa;
+ transition-duration:0.9s;
+
+        }
+.info11 {
+    width: 300px;
+    height: 170px;
+}
+.info12 {
+    width: 170px;
+    height: 170px;
+    display:inline-block;
+    float:right;
+    
+}
+.ho {
+    display: inline-block;
+    margin-top: 20px;
+}
+.attib11 {
+    
+    color:#e31c3d;
+    font-family:'MCS TOPAZ ITALIC';
+   font-size:12px;
+   padding:2px 3px;
+}
+.information1 {
+     font-size:14px;
+     font-family:"../fonts/kacstfarsi.ttf";
+}
+.image12 {
+    width: 118px;
+    height: 166px;
+    float:right;
+    display:block;
+    border:solid 2px rgba(0, 0, 0, 0.82);
+    border-radius:10px 10px 10px 0;  
+    opacity:0.7;
+}
+.votebutton {
+    width:290px;
+    height:30px;
+    text-align:center;
+
+}
+.vote {
+    text-decoration: none;
+    font-size: 25px;
+    padding:5px 100px;
+    color:rgba(0, 0, 0, 0.82);
+}
+    .votebutton:hover .vote{
+        color: rgba(0, 0, 0, 0.82);
+         transition-duration:0.9s;
+    }
+.infor {
+    width: 900px;
+    max-height: 50px;
+}
+.d1 {
+    width: 900px;
+    display: inline-block;
+    margin-right:20px;
+    margin-bottom:30px;
+    margin-top:20px;
+}
+.a123{
+     color:rgba(0, 0, 0, 0.82);
+    font-size: 25px;
+    float: right;
+    padding-top:7px;
+    text-shadow: 1px 1px 1px rgb(12, 57, 232);
+}
+.a456 {
+    font-size: 25px;
+    float: right;
+    padding-top:5px;
+    color:#e31c3d;
+    padding-right:5px;
+    text-shadow: 1px 1px 1px rgb(30, 166, 211);
+}

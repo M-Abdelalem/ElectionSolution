@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserMasterPage.master.cs" Inherits="Election.UserPages.UserMasterPage" %>
+
+<!DOCTYPE html>
+<html ">
+<head runat="server">
+    <link href="../Css/candidate_style.css" rel="stylesheet" />
+    <link href="../Css/StyleSheet1.css" rel="stylesheet" />
+    <link href="../Css/EndElection.css" rel="stylesheet" />
+    <link href="../Css/timer.css" rel="stylesheet" />
+    <link href="../Css/endinfostyle.css" rel="stylesheet" />
+    <link href="../Css/styleuser.css" rel="stylesheet" />
+    <script src="../js/jquery-3.0.0.min.js"></script>
+
+    <link rel="icon" type="image/png" href="../imgs/icon3.png">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-image:url(../imgs/2.jpg) ">
+    <form id="form1" runat="server">
+        <diV id="logo"><img src="../imgs/logo-election.png"  id="img1" /></diV>
+        <div id="con">
+            <div class="slidemenu">
+                <ul>
+                  <li class="menu1-trigger"><a  href="../UserPages/UserElection.aspx" class="">صفحة الانتخابات</a></li>
+                  <li class="menu2-trigger"><a  href="../UserPages/Result.aspx" class="">صفحة النتيحة</a></li>
+                  <li class="menu3-trigger"><a  href="../UserPages/CandidateSort.aspx"  class="">صفحة االفرز</a></li>
+                 </ul>
+            </div>
+            <div id="container">
+                <div id="head1">
+                </div>
+                <div id="body1">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+                </div>           
+           </div>
+     </div>
+    </form>
+</body>
+</html>
